@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} /* marcacao dos textos no geral*/
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} /* separando texto e titles*/
+
+header li {
+  display: inline;
+  font-weight: bold;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} /* estilizando os titles*/
+
+body > header {
+  background-color: rgb(12, 1, 19);
+  color: rgb(190, 190, 115);
+  padding: 18px;
+  text-decoration: none;
+} /* estilizando navy*/
+
+header li a {
+  color: rgb(190, 190, 115);
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} /* estilizando navy*/
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} /* organizando espacamento texto*/
+
+.articles article {
+  width: 30%;
+} /*deixando as imagens lado a lado, melhorando apresentacao*/
+
+img {
+  width: 600px;
+  height: 400px;
+} /*tamanho de todas as imagens*/
+
+#sports h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: rgb(from rgb(44, 8, 8) r g b);
+  font-size: 38px;
+} /* estilizando titulo h2 sports*/
+
+#sports {
+  padding: 30px;
+  background-color: rgb(from rgb(233, 159, 159) r g b);
+}
+h2 {
+  font-size: 34px;
+}
+
+.articles article h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+} /*espacamentos textos h3*/
+
+.creation-date {
+  font-style: italic;
+} /*alterando a data da imagem*/
+
+.articles article a {
+  background-color: rgb(0, 0, 0);
+  color: rgb(150, 149, 149);
+  padding: 3px;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+} /* botao leia mais*/
+
+.articles article a:hover {
+  text-decoration: underline;
+} /*personalizacao do leia mais*/
+
+.articles article p,
+.articles article a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+.temas {
+  padding: 30px;
+} /* colocando espacamento nos temas*/
+
+#economy {
+  padding: 30px;
+  background-color: rgb(from rgb(148, 148, 91) r g b);
+}
+
+#economy h2 {
+  color: rgb(from rgb(107, 63, 63) r g b);
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 38px;
+  padding-top: 10px;
+} /* estilizando titulo h2 economy*/
+
+#entertainment {
+  padding: 30px;
+  background-color: rgb(from rgb(173, 145, 150) r g b);
+}
+#entertainment h2 {
+  color: pink;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 38px;
+  padding-top: 10px;
+} /* estilizando titulo h2 entertainment*/
+
+#technology {
+  padding: 30px;
+  background-color: rgb(from gray r g b);
+}
+#technology h2 {
+  color: aquamarine;
+  margin: top 0px;
+  margin-bottom: 20px;
+  font-size: 38px;
+  padding-top: 10px;
+} /* estilizando titulo technology*/
